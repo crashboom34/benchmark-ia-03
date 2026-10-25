@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SÉLUNE — Torréfacteur de spécialité · Caen, Normandie</title>
+  <meta name="description" content="SÉLUNE torréfie par petits lots trois cafés de spécialité d'origines traçables, et propose un abonnement mensuel sans engagement. Livraison sous 48 h après torréfaction.">
+  <meta name="theme-color" content="#1C1917">
+  <meta property="og:title" content="SÉLUNE — Café de spécialité">
+  <meta property="og:description" content="Trois cafés, trois phases, un rituel. Torréfaction artisanale à Caen.">
+  <meta property="og:type" content="website">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#contenu">Aller au contenu principal</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#accueil" aria-label="SÉLUNE, retour à l'accueil">
+        <svg class="brand-mark" viewBox="0 0 32 32" aria-hidden="true" focusable="false">
+          <path d="M22 4a12 12 0 1 0 6 10.5A9.5 9.5 0 0 1 22 4Z" fill="currentColor"/>
+        </svg>
+        <span class="brand-name">SÉLUNE</span>
+        <span class="brand-tag">Torréfacteur</span>
+      </a>
+
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="menu-principal">
+        <span class="nav-toggle-bar" aria-hidden="true"></span>
+        <span class="nav-toggle-label">Menu</span>
+      </button>
+
+      <nav class="site-nav" id="menu-principal" aria-label="Navigation principale">
+        <ul>
+          <li><a href="#cafes">Les cafés</a></li>
+          <li><a href="#engagements">Engagements</a></li>
+          <li><a href="#abonnement">Abonnement</a></li>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a class="btn btn-small" href="#abonnement">Commander</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="contenu">
+
+    <!-- ============ ACCUEIL ============ -->
+    <section class="hero" id="accueil">
+      <div class="container hero-grid">
+        <div class="hero-text reveal">
+          <p class="eyebrow">Microrréfacteurie · Caen, Normandie</p>
+          <h1>Trois cafés.<br>Trois phases.<br><em>Un rituel.</em></h1>
+          <p class="lead">Nous torréfions par petits lots des cafés de spécialité achetés en direct auprès de producteurs que nous connaissons par leur prénom. Le résultat&nbsp;: des tasses lumineuses, fraîches, et une marque qui n'a rien à cacher.</p>
+          <div class="hero-actions">
+            <a class="btn" href="#cafes">Découvrir les cafés</a>
+            <a class="btn btn-ghost" href="#abonnement">L'abonnement mensuel</a>
+          </div>
+          <ul class="hero-proof">
+            <li><strong>+120</strong> lots torréfiés en 2025</li>
+            <li><strong>48 h</strong> entre le four et votre porte</li>
+            <li><strong>4,9/5</strong> avis clients vérifiés</li>
+          </ul>
+        </div>
+
+        <figure class="hero-visual reveal">
+          <div class="hero-frame">
+            <img
+              src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=1100&q=80"
+              alt="Tasse de café noir posée à côté de grains torréfiés sur une table en bois"
+              width="1100" height="1300" fetchpriority="high"
+              onerror="this.style.display='none'">
+            <figcaption class="hero-caption">Lot&nbsp;#118 · Yirgacheffe lavé · torréfié le 12&nbsp;avril</figcaption>
+          </div>
+          <div class="hero-chip hero-chip-1" aria-hidden="true">Torréfié<br><strong>à la commande</strong></div>
+          <div class="hero-chip hero-chip-2" aria-hidden="true">Prix payés<br><strong>+32&nbsp;% marché</strong></div>
+        </figure>
+      </div>
+    </section>
+
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee-track">
+        <span>Origines traçables</span><span class="dot">●</span>
+        <span>Torréfaction par petits lots</span><span class="dot">●</span>
+        <span>Sachets compostables</span><span class="dot">●</span>
+        <span>Expédition sous 48&nbsp;h</span><span class="dot">●</span>
+        <span>Origines traçables</span><span class="dot">●</span>
+        <span>Torréfaction par petits lots</span><span class="dot">●</span>
+        <span>Sachets compostables</span><span class="dot">●</span>
+        <span>Expédition sous 48&nbsp;h</span><span class="dot">●</span>
+      </div>
+    </div>
+
+    <!-- ============ CAFÉS ============ -->
+    <section class="section" id="cafes">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="eyebrow">La collection</p>
+          <h2>Un café pour chaque moment de la journée</h2>
+          <p class="section-intro">Trois références, jamais plus&nbsp;: nous préférons les maîtriser de bout en bout plutôt que d'aligner les étiquettes. Chaque sachet de 250&nbsp;g porte sa date de torréfaction et son altitude de récolte.</p>
+        </header>
+
+        <div class="cards">
+          <article class="card reveal">
+            <div class="card-top">
+              <div class="moon moon-new" aria-hidden="true"></div>
+              <p class="card-phase">Nº1 · Claire</p>
+            </div>
+            <h3>Nouvelle Lune</h3>
+            <p class="card-origin">Éthiopie — Yirgacheffe, Gedeo · 1&nbsp;950&nbsp;m</p>
+            <p class="card-desc">Un café de filtration qui s'ouvre comme un matin de printemps&nbsp;: jasmin, bergamote, abricot frais, une acidité cristalline et une finale de miel de fleurs.</p>
+            <ul class="notes">
+              <li>Jasmin</li><li>Bergamote</li><li>Miel</li>
+            </ul>
+            <p class="card-meta">Lavé · Filtre, V60, AeroPress</p>
+            <div class="card-foot">
+              <p class="price">16,50&nbsp;€ <span>/ 250&nbsp;g</span></p>
+              <a class="btn btn-small" href="#abonnement">Choisir ce café</a>
+            </div>
+          </article>
+
+          <article class="card card-featured reveal">
+            <div class="card-top">
+              <div class="moon moon-half" aria-hidden="true"></div>
+              <p class="card-phase">Nº2 · Équilibrée</p>
+            </div>
+            <h3>Demi-Lune</h3>
+            <p class="card-origin">Colombie — Huila, Pitalito · 1&nbsp;700&nbsp;m</p>
+            <p class="card-desc">Notre valeur sûre, celle qui convainc les amateurs comme les curieux. Une rondelle de caramel, un soupçon de fruits rouges, une texture sirupeuse qui tient la route au lait comme en filtre.</p>
+            <ul class="notes">
+              <li>Caramel</li><li>Fruits rouges</li><li>Cacao au lait</li>
+            </ul>
+            <p class="card-meta">Lavé · Espresso, filtre, allongé</p>
+            <div class="card-foot">
+              <p class="price">15,00&nbsp;€ <span>/ 250&nbsp;g</span></p>
+              <a class="btn btn-small" href="#abonnement">Choisir ce café</a>
+            </div>
+            <p class="card-flag">Le plus commandé</p>
+          </article>
+
+          <article class="card reveal">
+            <div class="card-top">
+              <div class="moon moon-full" aria-hidden="true"></div>
+              <p class="card-phase">Nº3 · Corsée</p>
+            </div>
+            <h3>Pleine Lune</h3>
+            <p class="card-origin">Guatemala — Antigua, Volcán de Agua · 1&nbsp;600&nbsp;m</p>
+            <p class="card-desc">Un espresso enveloppant, taillé pour les coucher de soleil et les petits-déjeuners qui s'éternisent. Chocolat noir, noisette grillée, une pointe de cannelle sur la fin.</p>
+            <ul class="notes">
+              <li>Chocolat noir</li><li>Noisette</li><li>Cannelle</li>
+            </ul>
+            <p class="card-meta">Nature · Espresso, moka, plongée</p>
+            <div class="card-foot">
+              <p class="price">15,50&nbsp;€ <span>/ 250&nbsp;g</span></p>
+              <a class="btn btn-small" href="#abonnement">Choisir ce café</a>
+            </div>
+          </article>
+        </div>
+
+        <p class="section-note reveal">Mouture sur demande (filtre, espresso, piston) — sans supplément. Prix indicatifs TTC, hors livraison.</p>
+      </div>
+    </section>
+
+    <!-- ============ ENGAGEMENTS ============ -->
+    <section class="section section-dark" id="engagements">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="eyebrow">Nos engagements</p>
+          <h2>Ce que nous refusons compte autant que ce que nous faisons</h2>
+          <p class="section-intro">Pas de mélange anonyme, pas de «&nbsp;torréfaction industrielle&nbsp;», pas de promesse creuse. Voici les quatre règles qui guident chaque lot qui sort de notre four.</p>
+        </header>
+
+        <ol class="pledges">
+          <li class="pledge reveal">
+            <span class="pledge-num">01</span>
+            <h3>Origines traçables</h3>
+            <p>Un seul pays, une seule région, un seul lot par sachet. Nous publions l'altitude, la variété, le producteur et le prix payé — en moyenne 32&nbsp;% au-dessus du cours du marché.</p>
+          </li>
+          <li class="pledge reveal">
+            <span class="pledge-num">02</span>
+            <h3>Torréfaction par petits lots</h3>
+            <p>Des lots de 12&nbsp;kg maximum, torréfiés à la commande dans notre atelier de Caen. Chaque profil est ajusté à la dégustation, pas à un calendrier commercial.</p>
+          </li>
+          <li class="pledge reveal">
+            <span class="pledge-num">03</span>
+            <h3>Fraîcheur garantie</h3>
+            <p>Expédition sous 48&nbsp;h ouvrées après torréfaction, date imprimée sur chaque sachet. Un café qui a plus de six semaines ne part jamais&nbsp;: il est offert à l'atelier.</p>
+          </li>
+          <li class="pledge reveal">
+            <span class="pledge-num">04</span>
+            <h3>Emballages responsables</h3>
+            <p>Sachets kraft compostables à domicile, valves végétales, encre à base d'huile végétale, colis sans plastique et en papier recyclé. Le compost avant le bac.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ============ ABONNEMENT ============ -->
+    <section class="section" id="abonnement">
+      <div class="container sub-grid">
+        <div class="sub-text reveal">
+          <p class="eyebrow">L'abonnement mensuel</p>
+          <h2>Le bon café, au bon rythme, sans y penser</h2>
+          <p class="section-intro">Chaque mois, nous choisissons pour vous le lot qui est au sommet de sa tasse, nous le torréfions la veille de l'expédition et nous l'envoyons avec sa fiche de dégustation et sa recette d'extraction.</p>
+
+          <ul class="check-list">
+            <li>Un ou deux sachets de 250&nbsp;g, selon votre consommation</li>
+            <li>Mouture adaptée à votre matériel, modifiable à tout moment</li>
+            <li>Livraison incluse en France métropolitaine</li>
+            <li>Fiche de dégustation et recette signées du torréfacteur</li>
+            <li>Accès prioritaire aux micro-lots de saison (quantités limitées)</li>
+            <li>Sans engagement&nbsp;: pause, changement ou résiliation en un clic</li>
+          </ul>
+        </div>
+
+        <aside class="sub-card reveal" aria-label="Formule d'abonnement">
+          <p class="sub-label">Formule Rituel</p>
+          <p class="sub-price"><span class="amount">27&nbsp;€</span> <span class="per">/ mois</span></p>
+          <p class="sub-detail">2 × 250&nbsp;g · soit environ 40 tasses</p>
+          <hr>
+          <ul>
+            <li>Deux cafés différents chaque mois</li>
+            <li>Expédition le 1<sup>er</sup> et le 15 du mois</li>
+            <li>Frais de port inclus</li>
+            <li>-10&nbsp;% sur la boutique permanente</li>
+          </ul>
+          <a class="btn btn-block" href="#faq">Comment ça marche&nbsp;?</a>
+          <p class="sub-note">Marque fictive&nbsp;: aucune commande ni paiement réel n'est proposé sur ce site de démonstration.</p>
+        </aside>
+      </div>
+    </section>
+
+    <!-- ============ FAQ ============ -->
+    <section class="section section-soft" id="faq">
+      <div class="container faq-wrap">
+        <header class="section-head reveal">
+          <p class="eyebrow">Questions fréquentes</p>
+          <h2>Tout ce qu'on nous demande avant de goûter</h2>
+        </header>
+
+        <div class="faq-list">
+          <details class="faq-item" open>
+            <summary>Quand mon café est-il torréfié&nbsp;?<span class="faq-icon" aria-hidden="true"></span></summary>
+            <div class="faq-body">
+              <p>La torréfaction a lieu chaque mardi et chaque vendredi. Votre commande part dans les 48&nbsp;h qui suivent, avec la date exacte de torréfaction imprimée sur le sachet. Nous recommandons de laisser le café se reposer 5 à 7 jours après torréfaction pour une espresso, et de le déguster entre 10 et 35 jours pour un filtre.</p>
+            </div>
+          </details>
+
+          <details class="faq-item">
+            <summary>Quelle mouture choisir pour mon matériel&nbsp;?<span class="faq-icon" aria-hidden="true"></span></summary>
+            <div class="faq-body">
+              <p>Indiquez simplement votre méthode au moment de la commande&nbsp;: espresso, V60 / Chemex, AeroPress, piston ou cafetière italienne. Nous ajustons le grain en conséquence, sans supplément. Si vous hésitez, choisissez la mouture filtre&nbsp;: elle convient à la majorité des méthodes douces.</p>
+            </div>
+          </details>
+
+          <details class="faq-item">
+            <summary>Livrez-vous partout en France&nbsp;?<span class="faq-icon" aria-hidden="true"></span></summary>
+            <div class="faq-body">
+              <p>Oui, en France métropolitaine et en Corse, sous 2 à 4 jours ouvrés après expédition. La livraison est offerte pour l'abonnement et à partir de 45&nbsp;€ d'achat. Nous livrons également dans l'Union européenne sur demande par e-mail.</p>
+            </div>
+          </details>
+
+          <details class="faq-item">
+            <summary>Puis-je suspendre ou arrêter mon abonnement&nbsp;?<span class="faq-icon" aria-hidden="true"></span></summary>
+            <div class="faq-body">
+              <p>À tout moment, depuis votre espace client ou en répondant simplement à l'e-mail de confirmation mensuel. Pause d'un mois, changement de café, de mouture ou de fréquence&nbsp;: tout est modifiable, sans frais ni justification. Il n'y a aucune durée d'engagement.</p>
+            </div>
+          </details>
+
+          <details class="faq-item">
+            <summary>Comment conserver mon café au mieux&nbsp;?<span class="faq-icon" aria-hidden="true"></span></summary>
+            <div class="faq-body">
+              <p>Gardez le sachet fermé, à l'abri de la lumière et de l'humidité, à température ambiante. Évitez le réfrigérateur, qui absorbe les odeurs et condense l'humidité. Conservez les grains entiers le plus longtemps possible et ne moudrez que la dose du moment.</p>
+            </div>
+          </details>
+
+          <details class="faq-item">
+            <summary>Proposez-vous des cafés décaféinés&nbsp;?<span class="faq-icon" aria-hidden="true"></span></summary>
+            <div class="faq-body">
+              <p>Un décaféiné à l'eau de source rejoint la collection deux fois par an, en édition limitée. Inscrivez-vous à la lettre d'information de l'atelier (un e-mail par mois, jamais plus) pour être prévenu de sa torréfaction.</p>
+            </div>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ APPEL FINAL ============ -->
+    <section class="cta-band">
+      <div class="container cta-inner reveal">
+        <h2>Votre prochaine tasse mérite mieux qu'un sachet anonyme.</h2>
+        <a class="btn btn-light" href="#cafes">Choisir mon café</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer" id="contact">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <p class="brand-name">SÉLUNE</p>
+        <p class="footer-tagline">Torréfacteur de spécialité.<br>Cafés d'origine, torréfiés à Caen, au fil de la Sélune.</p>
+      </div>
+
+      <nav aria-label="Navigation de pied de page">
+        <h2 class="footer-title">Découvrir</h2>
+        <ul class="footer-links">
+          <li><a href="#cafes">Les trois cafés</a></li>
+          <li><a href="#engagements">Nos engagements</a></li>
+          <li><a href="#abonnement">L'abonnement mensuel</a></li>
+          <li><a href="#faq">Questions fréquentes</a></li>
+        </ul>
+      </nav>
+
+      <div>
+        <h2 class="footer-title">Nous joindre</h2>
+        <ul class="footer-links">
+          <li><a href="mailto:bonjour@selune-cafe.fr">bonjour@selune-cafe.fr</a></li>
+          <li><a href="tel:+33231000000">02 31 00 00 00</a></li>
+          <li>12 quai de la Sélune, 14000 Caen</li>
+          <li>Atelier ouvert du mardi au samedi, 9&nbsp;h–18&nbsp;h</li>
+        </ul>
+      </div>
+
+      <div>
+        <h2 class="footer-title">Atelier</h2>
+        <ul class="footer-links">
+          <li>Torréfaction&nbsp;: mardi &amp; vendredi</li>
+          <li>Dégustations&nbsp;: samedi, 11&nbsp;h (sur inscription)</li>
+          <li><a href="mailto:bonjour@selune-cafe.fr?subject=Visite%20de%20l'atelier">Réserver une visite</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="container footer-bottom">
+      <p>© <span id="annee">2026</span> SÉLUNE — Marque fictive créée pour un benchmark de développement web. Aucun achat n'est possible sur ce site.</p>
+      <a class="to-top" href="#accueil">Retour en haut ↑</a>
+    </div>
+  </footer>
+</body>
+</html>
